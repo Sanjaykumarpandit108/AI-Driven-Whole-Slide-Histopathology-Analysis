@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Data - DO NOT PUSH LARGE WSI FILES
+data/
+*.svs
+*.tif
+*.tiff
+*.ndpi
+*.mrxs
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
